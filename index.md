@@ -82,9 +82,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="registration">Registration</h2>
 
-<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. Registration is free and required; a registration link is forthcoming.</p>
-
-<h2 id="general">General Information</h2>
+<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. The workshop will not be recorded. Registration is free and required; a registration link is forthcoming.</p>
 
 <h2 id="general">General Information</h2>
 
@@ -159,7 +157,7 @@ address.
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
   {% if page.what3words %}
     What3Words location:
-    <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
+    <a href="https://what3words.com/{{page.what3words}}">{{page.what3words}}</a>.
   {%endif %}
 </p>
 {% elsif online == "true_public" %}
@@ -245,13 +243,14 @@ special instructions.
 WORKSHOP RECORDINGS
 
 Modify or remove the block below if you plan to record the workshop.
-{% endcomment %}
+
 <p id="recordings">
   <strong>Workshop Recordings:</strong>
   Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
   To foster a positive online learning environment, we strongly recommend that participants join in real time.
   As a result, workshop recordings are not recommended and may not be available to learners.
 </p>
+{% endcomment %}
 {% comment %}
 CONTACT EMAIL ADDRESS
 
