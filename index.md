@@ -82,7 +82,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="registration">Registration</h2>
 
-<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. The workshop will not be recorded. Registration is free and required; a registration link is forthcoming.</p>
+<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. The workshop will not be recorded. Registration is free and required; <a href="https://www.lib.ku.edu/library-carpentry" target="_blank">register through KU Libraries' workshop page.</a></p>
 
 <h2 id="general">General Information</h2>
 
